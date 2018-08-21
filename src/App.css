@@ -1,0 +1,63 @@
+#loading {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top:200px;
+  text-align: center;
+  font-size: 30px;
+  color:#FFF;
+  z-index:2;
+}
+#backdrop {
+  background: #000;
+  position: fixed;
+  left:0;
+  top:0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  z-index:1;
+}
+
+#todoList {
+  display: flex;
+  flex-flow: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.todo {
+  padding:5px;
+  background: rgb(240, 240, 240);
+  border-bottom: #CCC solid 1px;
+  padding-bottom: 5px;
+}
+
+
+#addTodo {
+  display: flex;
+  flex-flow: row;
+  width: 300px;
+  border: #FFF solid 1px;
+  margin: 0 auto;
+}
+
+#addTodo input {
+  width: 235px;
+  height: 30px;
+}
+
+#addTodo button {
+  width: 50px;
+  height: 35px;
+  margin-left: 5px;
+}
+
+
+#filters {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 300px;
+  margin: 0 auto;
+}
